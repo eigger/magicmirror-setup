@@ -1,0 +1,12 @@
+[
+	{
+		"id": "turn_on_screen",
+		"execute-command": "/home/pi/Webhook/Scripts/turn_on_screen.sh",
+		"command-working-directory": "/home/pi/Webhook"
+	},
+	{
+		"id": "turn_off_screen",
+		"execute-command": "/home/pi/Webhook/Scripts/turn_off_screen.sh",
+		"command-working-directory": "/home/pi/Webhook"
+	}
+]

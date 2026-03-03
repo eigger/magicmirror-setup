@@ -1,0 +1,78 @@
+html {
+  font-size: xsmall;
+}
+body {
+  zoom: 100%;
+}
+:root {
+
+  --gap-body-top: 1px;
+  --gap-body-right: 1px;
+  --gap-body-bottom: 1px;
+  --gap-body-left: 1px;
+  --font-primary: "NotoSansCJKkr-Regular";
+  --font-secondary: "NotoSansCJKkr-Regular";
+  --font-size: 14px;
+  --gap-modules: 10px;
+}
+
+.module.calendar.calendar .normal.event{
+  background-color: #252525;
+  border-radius: 3px;
+  border-left: 5px solid #29a63a;
+  display: flex;
+  padding: 5px 5px;
+  margin-bottom: 7px;
+}
+
+.calendar .time {
+  text-align: right;
+  justify-content: space-between; 
+  flex: 1 1 0;
+  color: white;
+}
+.calendar .title {
+  color: white;
+}
+
+
+.CX3 {
+  /* you CAN modify these values; but SHOULD NOT to remove */
+  --celllinecolor: #333;
+  --cellbgcolor: rgba(0, 0, 0, 0.2);
+  --cellheaderheight: 20px;
+  --cellfooterheight: 2px;
+  --defaultcolor: #FFF;
+  --eventheight: calc(var(--fontsize) + 4px);
+  --totalheight: calc(var(--eventheight) * var(--maxeventlines));
+  --displayEndTime: none;
+  --displayWeatherTemp: none;
+  font-size: var(--fontsize);
+  color: var(--defaultcolor);
+  line-height: calc(var(--eventheight))
+}
+
+.CX3 .cellHeader {
+  text-align: right;
+  height: var(--cellheaderheight);
+  /*padding: 4px; 2px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 90%;
+}
+
+.CX3 .cw {
+  display: none;
+  font-size: 60%;
+  color: goldenrod;
+}
+
+.CX3 .today .cellDate {
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 0px 8px;
+  margin: 0px;
+}
