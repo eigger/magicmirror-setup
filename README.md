@@ -7,5 +7,8 @@
 
 ## 📸 설정 적용 미리보기
 
+### 🏠 집 (Home) 
+![집 환경 미리보기](docs/images/home.png)
+
 ### 🏢 사무실 (Office) 
 ![사무실 환경 미리보기](docs/images/office.png)

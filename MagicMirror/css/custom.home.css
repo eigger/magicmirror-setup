@@ -1,0 +1,43 @@
+:root {
+  /* --color-text: #999;
+  --color-text-dimmed: #666;
+  --color-text-bright: #fff;
+  --color-background: #000;
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+  --font-size: 20px;
+  --font-size-xsmall: 0.75rem;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 3.25rem;
+  --font-size-xlarge: 3.75rem; */
+  --gap-body-top: 20px;
+  --gap-body-right: 20px;
+  --gap-body-bottom: 20px;
+  --gap-body-left: 20px;
+  --gap-modules: 20px;
+}
+
+.module.calendar.calendar .normal.event {
+  background-color: #252525;
+  border-radius: 3px;
+  border-left: 5px solid #29a63a;
+  display: flex;
+  padding: 5px 5px;
+  margin-bottom: 7px;
+}
+
+.calendar .time {
+  text-align: right;
+  justify-content: space-between;
+  flex: 1 1 0;
+  color: white;
+}
+
+.calendar .title {
+  color: white;
+}
+
+.CX3 .cell {
+  background-color: transparent;
+}
