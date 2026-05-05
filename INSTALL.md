@@ -13,7 +13,7 @@
 해당 OS가 설치되고 네트워크 연결 및 기본 설정이 완료된 상태에서 아래 설치를 진행해 주세요.
 
 ## 2. MagicMirror² 설치 (Raspberry Pi 권장)
-터미널(Terminal)을 열고 아래 명령어를 입력하여 자동 설치 스크립트를 실행합니다.
+터미널(Terminal)을 열고 아래 명령어를 입력하여 자동 설치 [스크립트](https://github.com/sdetweil/MagicMirror_scripts)를 실행합니다.
 ```bash
 bash -c  "$(curl -sL https://raw.githubusercontent.com/sdetweil/MagicMirror_scripts/master/raspberry.sh)"
 
